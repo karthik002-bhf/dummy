@@ -27,6 +27,7 @@ function TopContent() {
             </div>
             <div className='d-flex justify-content-center'>
                 <h4>Why choose us?</h4>
+                <h4>Why choose us?</h4>
             </div>
         </div>
     )
