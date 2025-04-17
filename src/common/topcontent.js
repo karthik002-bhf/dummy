@@ -6,12 +6,12 @@ import Image from 'react-bootstrap/esm/Image';
 function TopContent() {
     return (
         <div className='container mt-5'>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p className='text-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-            <div className='card my-5'>
+            <div className='card my-5' style={{ backgroundColor: "#f8f9fa", borderRadius: "10px", padding: "20px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
                 <div className='col-12 row'>
-                    <div className='col-4'>
-                        <Image src='https://static.asianpaints.com/content/dam/asian_paints/sps_overhaul/webp-images/misscall-component/desktopsps-missed-call-component.webp'  />
+                    <div className='col-4 my-auto'>
+                        <Image src='https://static.asianpaints.com/content/dam/asian_paints/sps_overhaul/webp-images/misscall-component/desktopsps-missed-call-component.webp' fluid />
                     </div>
                     <div className='col-8 my-auto'>
                         <div className='col-md-12 row'>
@@ -25,10 +25,7 @@ function TopContent() {
                     </div>
                 </div>
             </div>
-            <div className='d-flex justify-content-center'>
-                <h4>Why choose us?</h4>
-                <h4>Why choose us?</h4>
-            </div>
+            
         </div>
     )
 }
