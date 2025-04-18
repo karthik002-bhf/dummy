@@ -1,10 +1,14 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'react-bootstrap/Image';
+import EnquireForm from './EnquireForm';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 function Carouseldemo() {
   return (
     <div>
+      <div className='' style={{ position: 'absolute',zIndex: 1, top: '10%', right: '10%' }}>
+        <EnquireForm />
+      </div>
       <Carousel indicators=''>
         <Carousel.Item className='W-100'>
           <Image src="https://static.asianpaints.com/content/dam/asian_paints/services/banner-1-revised.webp" className='w-100' fluid />
@@ -30,6 +34,7 @@ function Carouseldemo() {
           </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
+
     </div>
   );
 }

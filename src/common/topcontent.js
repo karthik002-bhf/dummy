@@ -16,7 +16,7 @@ function TopContent() {
                     <div className='col-8 my-auto'>
                         <div className='col-md-12 row'>
                             <div className='col-md-6'>
-                                <p className=''>To paint your home, please give us a call at.</p>
+                                <p className='' style={{fontSize:'22px'}}>To paint your home, please give us a call at.</p>
                             </div>
                             <div className='col-md-5'>
                                 <a href="tel:+1800-209-5678">1800-209-5678</a>

@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Carouseldemo from './common/carouseldemo';
-import NavbarDemo from './common/navnardemo';
+import NavbarDemo from './common/navbardemo';
 import TopContent from './common/topcontent';
 import Secondcontent from './common/secondcontent';
 import ThirdContent from './common/thirdcontent';
